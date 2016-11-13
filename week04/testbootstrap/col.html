@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <title>栅格布局</title>
+    <style type="text/css">
+    	[class*="span"] {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: #eee;
+            border: 1px solid #ddd;
+            background-color: rgba(86, 61, 124, .15);
+            border: 1px solid rgba(86, 61, 124, .2);
+        }
+    </style>
+</head>
+
+<body>
+        <div class="row">
+            <div class="span5">col-md-1</div>
+            <div class="span4 offset3">col-md-1</div>
+        </div>
+
+        <div class="row-fluid">
+            <div class="span5">col-md-1</div>
+            <div class="span7">col-md-1</div>
+        </div>
+        <div class="row-fluid">
+            <div class="span4">col-md-1</div>
+            <div class="span4 offset4">col-md-1</div>
+        </div>
+</body>
+
+</html>

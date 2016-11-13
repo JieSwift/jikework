@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #333;
+}
+
+.cube {
+    width: 320px;
+    height: 320px;
+    margin: 250px auto;
+    /*搭建3D环境*/
+    -webkit-transform-style: preserve-3d;
+    /*调用动画*/
+    -webkit-animation: myanimation 10s infinite linear;
+}
+
+.cube ul li {
+    list-style: none;
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, .2);
+    box-shadow: 0 0 30px #666;
+}
+
+.box {
+    width: 78px;
+    height: 78px;
+    float: left;
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+
+/*上、下 rotateX(90deg)*/
+
+
+/*左、右 rotateY(270deg)*/
+
+
+/*translateZ(?deg) 位移的值取决于元素的尺寸*/
+
+.cube ul li:nth-child(1) {
+    -webkit-transform: rotateX(90deg) translateZ(159px);
+}
+
+.cube ul li:nth-child(2) {
+    -webkit-transform: rotateX(270deg) translateZ(159px);
+}
+
+.cube ul li:nth-child(3) {
+    -webkit-transform: rotateY(90deg) translateZ(159px);
+}
+
+.cube ul li:nth-child(4) {
+    -webkit-transform: rotateY(270deg) translateZ(159px);
+}
+
+.cube ul li:nth-child(5) {
+    -webkit-transform: translateZ(-159px);
+}
+
+.cube ul li:nth-child(6) {
+    -webkit-transform: translateZ(159px);
+}
+
+
+/*动画函数*/
+
+@-webkit-keyframes myanimation {
+    from {
+        -webkit-transform: translateZ(-10em) rotateX(0) rotateY(0deg);
+    }
+    to {
+        -webkit-transform: translateZ(-10em) rotateX(360deg) rotateY(360deg);
+    }
+}

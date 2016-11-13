@@ -1,0 +1,200 @@
+// footer
+.footer {
+    margin-top: 40px;
+}
+
+.footer .jkinfor-block {
+    background: #fafafa;
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.footer .jkinfor-block .jkinfor {
+    width: 1000px;
+    margin: 0 auto;
+    min-height: 200px;
+}
+
+.jkinfor dl {
+    width: 160px;
+    padding-left: 30px;
+    color: gray;
+    margin: 25px 0;
+    float: left;
+    border-left: 1px solid #E4E4E4;
+    min-height: 175px;
+}
+
+.jkinfor dl dt {
+    font-size: 14px;
+    color: #666;
+    font-weight: 500;
+}
+
+.jkinfor dl dd {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.jkinfor a {
+    color: gray;
+    padding-left: 5px;
+}
+
+.search-share {
+    width: 195px;
+    float: left;
+    min-height: 226px;
+    border-left: 1px solid #E4E4E4;
+    padding: 20px 0 0 40px;
+}
+
+.search-share .jktxt {
+    font-size: 15px;
+    color: #35b558;
+    display: block;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.search-share .app-download a {
+    padding-left: 0;
+}
+
+.jkinfor dl dt a:hover,
+.jkinfor dl dd a:hover,
+.search-share .app-download a:hover div strong,
+.search-share .app-download a:hover div p,
+.kefu-online a:hover h5,
+.kefu-online a:hover p,
+.copyright a:hover {
+    color: #35b558;
+}
+
+.search-share .app-download img {
+    display: block;
+    float: left;
+    margin-right: 15px;
+    width: 21px;
+    height: 39px;
+}
+
+.search-share .app-download strong {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.search-share .app-download p {
+    font-size: 14px;
+    color: gray;
+    background: url('../images/rightarrow.png') 160px center no-repeat;
+    background-size: 7px 13px;
+}
+
+.search-share .share {
+    margin-top: 15px;
+}
+
+.search-share .share a {
+    background: url('../images/icon.png') -23px 0 no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+
+.search-share .share a.sina-icon:hover {
+    background-position: -19px -40px;
+}
+
+.search-share .share a.tieba-icon:hover {
+    background-position: -145px -40px;
+}
+
+.search-share .share a.qq-icon:hover {
+    background-position: -19px -122px;
+}
+
+.search-share .share a.sina-icon {
+    background-position: -19px 0;
+}
+
+.search-share .share a.tieba-icon {
+    background-position: -145px 0;
+}
+
+.search-share .share a.qq-icon {
+    position: relative;
+    background-position: -19px -82px;
+}
+
+.search-share .share a.qq-icon:hover .weinxinpop {
+    display: block;
+}
+
+.search-share .share a.qq-icon .weinxinpop {
+    position: absolute;
+    bottom: 32px;
+    right: -45px;
+    display: none;
+}
+
+.jkinfor a {
+    color: gray;
+    padding-left: 5px;
+}
+
+.kefu-online {
+    margin-top: 15px;
+    padding-left: 35px;
+}
+
+.kefu-online .kefu-icon {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: -40px;
+    background: url('../images/kefu.png') no-repeat -40px 0/80px 40px;
+}
+
+.kefu-online .kefu-icon.online {
+    background-position: 0 0;
+}
+
+.kefu-online h5 {
+    position: relative;
+    top: -14px;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 2px;
+    line-height: 22px;
+    padding-left: 5px;
+}
+
+.kefu-online p {
+    position: relative;
+    top: -14px;
+    color: gray;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.copyright {
+    font-size: 12px;
+    color: #999;
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+    padding: 20px;
+}
+
+.copyright strong {
+    font-weight: 400;
+}
+
+.copyright a {
+    color: #999;
+}

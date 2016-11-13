@@ -1,0 +1,121 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 492px;
+    margin: 19px 0 5px 0;
+}
+
+.nav-a {
+    float: left;
+    position: relative;
+    color: #333;
+    margin-left: 20px;
+    line-height: 24px;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.nav-a:hover{
+	color: #00c;	
+}
+
+.nav #nav-login,.nav #nav-set{
+	display: inline-block;
+    float: left;
+    color: #000;
+    font-size: 13px;
+    line-height: 24px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+#nav-more,#nav-more:visited{
+	display: inline-block;
+    position: absolute;
+    right: 10px;
+    width: 60px;
+    height: 23px;
+    float: left;
+    color: white;
+    background: #38f;
+    line-height: 24px;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #38f;
+    margin-left: 19px;
+    margin-right: 2px;
+    text-decoration: none;
+}
+div.article{
+	font-size: 0;
+}
+.article{
+	position: relative;
+	top: 130px;
+}
+.bd-lg{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 270px;
+	height: 129px;
+	margin-left: -135px;
+}
+
+#form{
+	position: relative;
+	top: 150px;
+	margin: 22px auto 0;
+	width: 641px;
+	text-align: left;
+}
+
+.sea-text{
+	border: 1px solid #b6b6b6;
+    background: #fff;
+    display: inline-block;
+    vertical-align: top;
+    width: 539px;
+    margin-right: 0;
+    border-right-width: 0;
+    border-color: #b8b8b8 transparent #ccc #b8b8b8;
+    overflow: hidden;
+}
+
+.sea-input{
+	width: 526px;
+    height: 34px;
+    font: 16px/18px arial;
+    line-height: 22px;
+    margin-left: 7px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    outline: 0;
+} 
+
+.btn-wr{
+	display: inline-block;
+    background-position: -120px -48px;
+    vertical-align: top;
+}
+.bd-btn{
+	width: 100px;
+    height: 36px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border: none;
+    outline: medium;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}

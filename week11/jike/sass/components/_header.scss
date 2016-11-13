@@ -1,0 +1,284 @@
+a {
+    color: $black;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+
+// head-con
+.head-wr {
+    box-sizing: border-box;
+    @include divBulk($w-per-100);
+    @include clearfix;
+}
+
+.head-con {
+    @include divBulk($w-1000);
+    @include clearfix;
+    margin: $m-10-auto;
+    height: $h-50;
+}
+
+.logo-wr,
+.search-section,
+.login-box {
+    @include float;
+}
+
+.head-con {
+    .logo-wr {
+        img {
+            @include divBulk(113px, 41px);
+        }
+    }
+}
+
+.search-section {
+    margin: 7px 52px 7px 222px;
+    @include divBulk(427px, 36px);
+}
+
+.headsearch {
+    input {
+        @include divBulk(315px, 36px);
+        border: none;
+        margin-left: 10px;
+        line-height: 36px;
+        outline: none;
+        font-size: 14px;
+    }
+    .search-text-wr,
+    button {
+        position: relative;
+        border: $border-e;
+    }
+    .search-text-wr {
+        @include divBulk(380px, 36px);
+        @include inline-block;
+    }
+    button {
+        @include position(0, 4px);
+        @include divBulk(40px, 38px);
+        cursor: pointer;
+        outline: none;
+        background: $white;
+        font-size: 13px;
+        &:hover {
+            color: $white;
+            background: #35b558;
+        }
+    }
+}
+
+.headsearch {
+    .input-text-wr {
+        position: absolute;
+        @include position(6px, 0px);
+        a {
+            @include inline-block;
+            padding: 0 3px;
+            color: gray;
+            background: #f3f3f3;
+            margin-right: 5px;
+            &:hover {
+                color: $black;
+                background: #dfdfdf;
+            }
+        }
+    }
+}
+
+.login-box {
+    @include line-height(50px);
+    cursor: pointer;
+    font-size: 12px;
+    .icon-deji {
+        font-size: 18px;
+        color: $gray;
+    }
+    span {
+        font-size: 16px;
+    }
+    i {
+        cursor: pointer;
+    }
+    .icon-vip {
+        color: #f33;
+        margin-right: 5px;
+        font-size: 24px;
+        position: relative;
+        top: 3px;
+    }
+    a {
+        margin-right: 2px;
+        padding-left: 2px;
+    }
+}
+
+.username-con {
+    @include inline-block;
+    position: relative;
+    &:hover {
+        .user-nav,
+        .triangle-up {
+            display: block;
+        }
+    }
+}
+
+.username,
+.username:hover,
+.user-nav li:hover {
+    color: #35b558;
+}
+
+.userchange {
+    color: #2d85ca;
+}
+
+.triangle-up {
+    position: absolute;
+    @include hidden;
+}
+
+.triangle-up {
+    @include arrow(top, 5px, #eee);
+    @include position(33px, 0, 0, 76px);
+}
+
+.user-nav {
+    position: absolute;
+    @include hidden;
+    @include position(37px, auto, auto, 44px);
+    border: $border-e;
+    z-index: 100;
+    font-size: 12px;
+    background: $white;
+    li {
+        @include divBulk(60px, 20px);
+        @include line-height(20px);
+        color: #999;
+        cursor: pointer;
+        padding: 0 10px;
+        margin: 5px 0;
+        &:hover {
+            background: #f5f5f5;
+        }
+    }
+}
+
+// head-nav
+.head-nav-wr {
+    @include divBulk(100%, 42px);
+    border-top: 2px solid #35b550;
+    border-bottom: 1px solid #eee;
+    @include border(2px solid #35b550, none, 1px solid #eee);
+    z-index: 50;
+    position: relative;
+}
+
+.head-nav {
+    width: $w-1000;
+    margin: $m-0-auto;
+}
+
+.nav-box {
+    @include float;
+    li {
+        @include float;
+        padding: 0 22px;
+        a {
+            display: block;
+            color: $black;
+            @include line-height(42px);
+            font-size: 14px;
+            &:hover {
+                color: #35b558;
+                text-decoration: none;
+            }
+        }
+    }
+    li:first-child {
+        padding: 0 22px 0 0;
+    }
+}
+
+.user-need {
+    @include float(right);
+    ul li {
+        @include float;
+        margin: 0 10px;
+        a {
+            @include line-height(42px);
+            i {
+                margin-right: 3px;
+            }
+            .icon-vip {
+                color: #f00;
+                font-size: 20px;
+            }
+            span:hover {
+                color: #35b558;
+            }
+        }
+        i.icon-new {
+            position: relative;
+            @include position(-13px, auto, auto, -4px);
+            color: #f00;
+        }
+    }
+}
+
+.child-nav li a:hover {
+    color: #35b558;
+}
+
+.child-nav-box {
+    position: absolute;
+    width: $w-per-100;
+    @include hidden;
+}
+
+.child-nav-wr {
+    position: relative;
+    top: -1px;
+    width: $w-1000;
+    margin: $m-0-auto;
+    border: $border-e;
+    border-top: none;
+    background: $white;
+    z-index: 100;
+    .child-nav {
+        margin-left: 64px;
+        li {
+            position: relative;
+            padding: 0 32px 10px 5px;
+            @include float;
+            &:hover {
+                background: #f5f5f5;
+                .child-nav-triangle {
+                    display: block;
+                }
+            }
+            a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    }
+}
+
+.bgcolor {
+    background: #f5f5f5;
+}
+
+.child-nav-triangle {
+    position: absolute;
+    @include position(-5px, auto, auto, 40px);
+    @include arrow(top, 5px, #eee);
+    @include hidden;
+}

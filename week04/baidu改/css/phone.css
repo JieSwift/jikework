@@ -1,0 +1,452 @@
+@media screen and (max-width: 768px) {
+    body {
+        background: #eee;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 0;
+    }
+    a {
+        color: #000;
+    }
+    /*font*/
+    @font-face {
+        font-family: "iconfont";
+        src: url('../fonts/iconfont.eot');
+        /* IE9*/
+        src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/iconfont.woff') format('woff'), /* chrome, firefox */
+        url('../fonts/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+        url('../fonts/iconfont.svg#iconfont') format('svg');
+        /* iOS 4.1- */
+    }
+    .iconfont {
+        font-family: "iconfont" !important;
+        font-size: 24px;
+        font-style: normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    /*header*/
+    .head-wr {
+        height: 40px;
+    }
+    .hw-left {
+        float: left;
+        width: 155px;
+    }
+    .hw-left .wr-math {
+        font-weight: bold;
+        font-size: 1.5em;
+        color: #666;
+    }
+    .area-wea {
+        display: inline-block;
+    }
+    .hw-right .icon-login {
+        float: right;
+        width: 40px;
+        height: 40px;
+    }
+    .hw-right .icon-login img {
+        margin: 8px 8px;
+    }
+    /*end header*/
+    /*article*/
+    .main-content {
+        margin: 10px 0;
+    }
+    /*百度LOGO*/
+    .main-content .logo {
+        text-align: center;
+        height: 55px;
+        padding: 17px 0 15px;
+    }
+    .main-content .logo img {
+        width: 175px;
+        height: 55px;
+    }
+    /*搜索栏*/
+    .form-search {
+        font-size: 0;
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .form-search input {
+        width: 69%;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    .form-search .input-text input {
+        border: none;
+        height: 42px;
+    }
+    .form-search .form-submit {
+        width: 82px;
+        height: 42px;
+        background: #38f;
+        color: #fff;
+        white-space: nowrap;
+        line-height: 42px;
+        letter-spacing: -1px;
+        font-size: 16px;
+        border: none;
+        outline: none;
+    }
+    /*nav*/
+    .nav {
+        margin: 17px 0 14px;
+        overflow: hidden;
+    }
+    .nav a {
+        float: left;
+        width: 16%;
+        font-size: 12px;
+        color: #666;
+        text-align: center;
+    }
+    .nav a i {
+        display: block;
+        margin-bottom: 15px;
+        height: 24px;
+    }
+    .web-wr,
+    .news-wr,
+    .groom-wr,
+    .life-wr,
+    .shop-wr,
+    .mana-card {
+        background: #fff;
+        margin: 8px 5px;
+    }
+    /*web-wr样式*/
+    .head-titile {
+        line-height: 40px;
+        font-size: 15px;
+        font-weight: normal;
+        color: #999;
+        padding: 0 8px;
+    }
+    .title-right-i {
+        float: right;
+        margin-right: 10px;
+    }
+    .web-nav li a {
+        float: left;
+        display: block;
+        position: relative;
+        -webkit-box-sizing: border-box;
+        padding: 0 6px;
+        width: 25%;
+        height: 42px;
+        line-height: 42px;
+        text-align: center;
+    }
+    .web-nav li a:visited {
+        color: #666;
+    }
+    /*清除浮动*/
+    .clearfix:after {
+        content: "";
+        overflow: hidden;
+        clear: both;
+        display: block;
+    }
+    /*news-wr样式*/
+    .title-right {
+        float: right;
+    }
+    .title-right a {
+        padding: 0 15px;
+        margin-right: 15px;
+        border-right: 1px solid #eee;
+    }
+    .title-right a i {
+        font-size: 16px;
+        margin-right: 8px;
+        color: #666;
+    }
+    .news-con li a {
+        float: left;
+        display: block;
+        position: relative;
+        -webkit-box-sizing: border-box;
+        padding: 0 6px;
+        width: 50%;
+        height: 42px;
+        line-height: 42px;
+        text-align: center;
+    }
+    .aside-bottom {
+        border-top: 1px solid #eee;
+    }
+    .aside-bottom a {
+        float: right;
+        color: #03f;
+        margin: 10px 15px;
+    }
+    /*groom-con*/
+    .groom-con li a {
+        float: left;
+        display: block;
+        position: relative;
+        -webkit-box-sizing: border-box;
+        padding: 0 6px;
+        width: 100%;
+        height: auto;
+        line-height: 42px;
+        border-bottom: 1px solid #eee;
+    }
+    .groom-con li:nth-child(4) a {
+        border: none;
+    }
+    .groom-con li a time {
+        float: right;
+        font-size: 14px;
+        color: #666;
+    }
+    /*life*/
+    .location-wr {
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .location-info {
+        display: inline-block;
+        vertical-align: middle;
+        max-height: 32px;
+        margin-left: 10px;
+        overflow: hidden;
+    }
+    .location-info p {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        padding-right: 70px;
+        line-height: 30px;
+    }
+    .location-btn {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 10px;
+        width: 68px;
+        height: 28px;
+        border: 1px solid #d2d6dd;
+        border-radius: 2px;
+        text-indent: 20px;
+        font-size: 14px;
+    }
+    .location-btn .iconfont {
+        position: relative;
+        left: -10px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .location-btn span {
+        margin-left: -5px;
+        line-height: 30px;
+    }
+    .life-nav li {
+        width: 25%;
+        height: auto;
+        text-align: center;
+        float: left;
+    }
+    .life-nav li .i-a-wr {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        color: #fff;
+        margin: 5px auto;
+    }
+    .film {
+        background: #b493db;
+    }
+    .group-buy {
+        background: #ff6fbf;
+        ;
+    }
+    .take-out {
+        background: #ff6b70;
+    }
+    .car {
+        background: #93a4b3;
+    }
+    .hotel {
+        background: #6f99de;
+    }
+    .food {
+        background: #ffa868;
+    }
+    .ktv {
+        background: #b493db;
+    }
+    .bank {
+        background: #70d0a1;
+    }
+    .bd-life-wr {
+        height: 47px;
+        line-height: 47px;
+        border-top: 1px solid #f0f0f0;
+        margin-top: 4px;
+        font-size: 16px;
+        color: #262626;
+        text-align: center;
+    }
+    .bd-life-wr span {
+        color: #ccc;
+    }
+    /*shop*/
+    .ad-wr {
+        padding: 9px 14px 13px 14px;
+        text-align: left;
+        display: block;
+        position: relative;
+    }
+    .shop-img-wr {
+        width: 90px;
+        height: 90px;
+        background-size: 100% auto;
+        float: left;
+        margin-left: 10px;
+    }
+    .shop-title {
+        max-width: 100%;
+        height: 20px;
+        font-size: 16px;
+        display: inline-block;
+        overflow: hidden;
+        color: #333;
+        margin: -4px 0 0 5px;
+    }
+    .shop-price {
+        display: block;
+        height: 22px;
+    }
+    .shop-price li {
+        float: left;
+        margin-right: 8px;
+        display: inline-block;
+        vertical-align: text-bottom;
+    }
+    .shop-price li:nth-child(1) span {
+        font-size: 12px;
+        color: #777;
+        margin-left: 5px;
+        display: inline-block;
+        margin-top: -2px;
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    .shop-price li:nth-child(1) {
+        font-size: 19px;
+        color: #777;
+        margin-right: 3px;
+    }
+    .shop-price li:nth-child(2) {
+        font-size: 12px;
+        color: #bcbcbc;
+        text-decoration: line-through;
+        margin-top: 5px;
+    }
+    .shop-price li:nth-child(3) {
+        font-size: 17px;
+        color: #dfdfdf;
+        margin-top: -1px;
+    }
+    .shop-price li:nth-child(4) {
+        font-size: 12px;
+        color: #f60;
+        border: 1px solid #f60;
+        text-align: center;
+        padding: 1px;
+        margin: 1px 0 0 -6px;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    .shop-lin {
+        width: 90px;
+        height: 37px;
+        background: #f60;
+        font-size: 14px;
+        text-align: center;
+        color: #fff;
+        line-height: 36px;
+        display: inline-block;
+        position: absolute;
+        bottom: 13px;
+        left: 118px;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+    }
+    .shop-from {
+        font-size: 12px;
+        color: #aaa;
+        position: absolute;
+        bottom: 10px;
+        right: 14px;
+    }
+    .shop-nav {
+        margin: 0 14px;
+        overflow: hidden;
+    }
+    .shop-nav li a {
+        width: 25%;
+        font-size: 14px;
+        margin-top: 22px;
+        text-align: center;
+        display: block;
+        float: left;
+        color: #262626;
+        overflow: hidden;
+    }
+    .mana-card p {
+        text-align: center;
+        line-height: 50px;
+    }
+    /*end article*/
+    /*footer*/
+    /*foot-ad*/
+    .foot-wr .ft-ad li {
+        margin-left: 20px;
+        font-size: 12px;
+        height: 33px;
+        line-height: 33px;
+    }
+    .foot-wr .ft-ad li a {
+        color: #555;
+    }
+    .foot-wr .ft-ad li a .hot-i {
+        color: #f00;
+    }
+    .foot-wr .ft-ad li a .bd-i {
+        color: #00f;
+    }
+    /*ft-bottom*/
+    .ft-bottom {
+        overflow: hidden;
+        text-align: center;
+        margin-top: 15px;
+    }
+    #user-back {
+        position: relative;
+        display: inline-block;
+        height: 34px;
+        width: 95px;
+        line-height: 34px;
+        color: #666;
+        font-size: 13px;
+    }
+    #index-copyright {
+        display: block;
+        font-size: 12px;
+        height: 20px;
+        line-height: 20px;
+        padding: 6px 0 16px;
+        color: #999;
+    }
+    /*end footer*/
+}

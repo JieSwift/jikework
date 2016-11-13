@@ -1,0 +1,93 @@
+//aside
+.gotop {
+    position: fixed;
+    left: 50%;
+    margin-left: 510px;
+    bottom: 50px;
+    width: 34px;
+    text-align: center;
+    z-index: 2000;
+}
+
+.gotop span.top {
+    display: block;
+    background: url('../images/gotop.jpg') 0 0 no-repeat;
+    background-size: 34px 103px;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+}
+
+.gotop span.top:hover {
+    background: url('../images/gotop2.jpg') 0 0 no-repeat;
+    background-size: 34px 103px;
+}
+
+.gotop span.jk-app {
+    position: relative;
+    display: block;
+    background: #f7f7f7 url('../images/phone-1.png') center center no-repeat;
+    background-size: 12px 24px;
+    width: 34px;
+    height: 35px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.gotop span.jk-app:hover {
+    background: #f7f7f7 url('../images/phone-2.png') center center no-repeat;
+    background-size: 12px 24px;
+}
+
+.appewm {
+    background: url('../images/appewm_72.png') center center no-repeat;
+    background-size: 100%;
+    width: 126px;
+    height: 159px;
+    position: absolute;
+    z-index: 2100;
+    left: -126px;
+    top: -70px;
+    display: none;
+}
+
+.gotop span.jk-app:hover .appewm {
+    display: block;
+}
+
+.gotop a.diaocha {
+    display: block;
+    background: url('../images/gotop.jpg') 0 -68px no-repeat;
+    background-size: 34px 101px;
+    width: 34px;
+    height: 34px;
+}
+
+.gotop a.diaocha:hover {
+    background: url('../images/gotop2.jpg') 0 -68px no-repeat;
+    background-size: 34px 101px;
+}
+
+.gotop a.qq-online {
+    position: relative;
+    display: block;
+    background: #f7f7f7 url('../images/kfu1.png') center center no-repeat;
+    height: 35px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.gotop a.qq-online .kefu {
+    position: absolute;
+    padding: 5px;
+    background: #f5f5f5;
+    color: #333;
+    font-size: 12px;
+    text-align: center;
+    width: 180px;
+    left: -190px;
+    display: none;
+}
+
+.gotop a.qq-online:hover .kefu {
+    display: block;
+}
+

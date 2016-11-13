@@ -1,0 +1,116 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #eee;
+}
+
+.content h2 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.mutilColumns {
+    margin-top: 20px;
+    background-color: #eee;
+    font-family: "微软雅黑";
+    columns: 50px 3;
+    -webkit-columns: 50px 3;
+    -moz-columns: 50px 3;
+    -webkit-columns: 50px 3;
+    font-size: 14px;
+    background: url("../images/star.jpg") ;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    width: 600px;
+    height: 180px;
+    margin: 20px 10px;
+    padding: 0;
+    margin:40px auto;
+
+}
+
+.f1 {
+    height: 50px;
+    background-color: #666;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-box-flex: 1
+}
+
+.f2 {
+    height: 100px;
+    background-color: #999;
+    -webkit-box-flex: 2;
+    -moz-box-flex: 2;
+    -ms-box-flex: 2
+}
+
+.f3 {
+    height: 150px;
+    background-color: #ccc;
+    -webkit-box-flex: 3;
+    -moz-box-flex: 3;
+    -ms-box-flex: 3
+}
+
+#flex1 {
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -ms-box-orient: horizontal;
+}
+
+#flex2 {
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+}
+
+#flex3 {
+    display: flex;
+    display: webkit-flex;
+    width: 600px;
+    height: 200px;
+    background-color: #333;
+    font-size: 18px;
+    margin:0px auto;
+}
+
+#flex3 span{
+	color: #fff;
+	font-size: 16px;
+}
+#f1 {
+    -webkit-order: 1;
+    text-align: center;
+    color: #F8091C;
+    -webkit-flex: 1 1 100px;
+    flex: 1 1 100px;
+    background-color: #666;
+    float: right;
+}
+
+#f2 {
+    -webkit-order: 2;
+    text-align: center;
+    color: #F0F70E;
+    -webkit-box-flex: 2;
+    -webkit-flex: 2 2 100px;
+    flex: 2 2 100px;
+    background-color: #999;
+}
+
+#f3 {
+    -webkit-order: 3;
+    text-align: center;
+    color: #08D664;
+    -webkit-flex: 3 3 100px;
+    flex: 3 3 100px;
+    background-color: #ccc;
+}

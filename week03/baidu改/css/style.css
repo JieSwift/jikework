@@ -1,0 +1,280 @@
+body {
+    padding: 0;
+    margin: 0;
+    line-height: 20px;
+}
+
+
+/*nav样式*/
+
+.nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 492px;
+    margin: 19px 0 5px 0;
+}
+
+
+/*nav-a标签样式*/
+
+.nav-a {
+    float: left;
+    position: relative;
+    color: #333;
+    margin-left: 20px;
+    line-height: 24px;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.nav-a:hover {
+    color: #00c;
+}
+
+
+/*#nav-login #nav-set样式*/
+
+.nav #nav-login,
+.nav #nav-set {
+    display: inline-block;
+    float: left;
+    color: #000;
+    font-size: 13px;
+    line-height: 24px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+#nav-more,
+#nav-more:visited {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    width: 60px;
+    height: 23px;
+    float: left;
+    color: white;
+    background: #38f;
+    line-height: 24px;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #38f;
+    margin-left: 19px;
+    margin-right: 2px;
+    text-decoration: none;
+}
+
+
+/*article样式部分*/
+
+
+/*行内元素间距为0*/
+
+div.article {
+    font-size: 0;
+}
+
+
+/*article定位样式*/
+
+.article {
+    position: relative;
+    top: 130px;
+}
+
+
+/*bd-lg图片样式*/
+
+.bd-lg {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 270px;
+    height: 129px;
+    margin-left: -135px;
+}
+
+
+/*search样式*/
+
+.search {
+    width: 100%;
+    height: 36px;
+}
+
+
+/*form样式*/
+
+#form {
+    position: relative;
+    top: 150px;
+    margin: 22px auto 0;
+    width: 641px;
+    text-align: left;
+}
+
+
+/*sea-text框设置 */
+
+.sea-text {
+    border: 1px solid #b6b6b6;
+    background: #fff;
+    display: inline-block;
+    vertical-align: top;
+    width: 539px;
+    margin-right: 0;
+    border-right-width: 0;
+    border-color: #b8b8b8 transparent #ccc #b8b8b8;
+    overflow: hidden;
+}
+
+
+/*sea-input文字设置*/
+
+.sea-input {
+    width: 526px;
+    height: 34px;
+    font: 16px/18px arial;
+    line-height: 22px;
+    margin-left: 7px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+
+/*btn-wr样式*/
+
+.btn-wr {
+    display: inline-block;
+    background-position: -120px -48px;
+    vertical-align: top;
+}
+
+
+/*百度一下按钮样式*/
+
+.bd-btn {
+    width: 100px;
+    height: 36px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border: none;
+    outline: medium;
+}
+/*兼容safair*/
+@media all and (-webkit-min-device-pixel-ratio:0){
+/* select{ [;这里单独设置Safari的样式] } */
+.bd-btn{ [;margin-left:-3px;] }
+}
+
+
+/*footer样式部分*/
+
+.ftcon {
+    position: fixed;
+    bottom: 44px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    font-size: 12px;
+}
+
+
+/*二维码图片样式部分*/
+
+
+/*提取样式减少代码冗余度*/
+
+.appdown_img,
+.appnuomi_img {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    *display: inline;
+    /*兼容ie6 ie7*/
+    *zoom: 1;
+}
+
+.appdown_img {
+    background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_62c636fe.png) 0 0 no-repeat;
+}
+
+.appnuomi_img {
+    background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/nuomi_510f7472.png) 0 0 no-repeat;
+    margin-left: 15px;
+}
+
+
+/*提取样式减少代码冗余度*/
+
+.txt1,
+.txt2,
+.sign {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+
+/*提取样式减少代码冗余度*/
+
+.txt1,
+.txt2 {
+    text-align: center;
+    line-height: 23px;
+    color: #999;
+}
+
+
+/*关于糯米，关于百度样式*/
+
+.sign {
+    margin-left: 10px;
+}
+
+.txt1 .txt_pb,
+.txt2 .txt_nm {
+    color: #4c4c4c;
+    font-weight: bold;
+}
+
+.txt1 .txt_ep {
+    letter-spacing: 1px;
+}
+
+
+/*使用百度前必读样式*/
+
+.sign .lh {
+    margin-bottom: 3px;
+    padding-right: 88px;
+}
+
+.sign .lh a {
+    color: #272727;
+    margin-left: 30px;
+}
+
+.sign .cp,
+.sign .cp a {
+    color: #666;
+}
+
+.sign .cp .c-icon-icrlogo {
+    background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/img/icons_8b5b2ea9.png) no-repeat;
+    width: 14px;
+    height: 17px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background-position: -600px -96px;
+    position: relative;
+    top: 3px;
+}

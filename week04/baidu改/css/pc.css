@@ -1,0 +1,302 @@
+@media screen and (min-width: 768px) {
+    body {
+        padding: 0;
+        margin: 0;
+        line-height: 20px;
+    }
+    li {
+        list-style: none;
+    }
+    /*清除浮动样式*/
+    .clearfix:after {
+        content: "";
+        display: block;
+        clear: both;
+        overflow: hidden;
+    }
+    /*nav样式*/
+    .nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 492px;
+        margin: 19px 0 5px 0;
+    }
+    /*nav-a标签样式*/
+    .nav-a {
+        float: left;
+        position: relative;
+        color: #333;
+        margin-left: 20px;
+        line-height: 24px;
+        font-size: 13px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .nav-a:hover {
+        color: #00c;
+    }
+    /*#nav-login #nav-set样式*/
+    .nav #nav-login,
+    .nav #nav-set {
+        display: inline-block;
+        float: left;
+        color: #000;
+        font-size: 13px;
+        line-height: 24px;
+        margin-left: 20px;
+        text-decoration: underline;
+    }
+    #nav-login:hover{
+        color: #0cf;
+    }
+    #nav-more,
+    #nav-more:visited {
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        width: 60px;
+        height: 23px;
+        float: left;
+        color: white;
+        background: #38f;
+        line-height: 24px;
+        font-size: 13px;
+        text-align: center;
+        overflow: hidden;
+        border-bottom: 1px solid #38f;
+        margin-left: 19px;
+        margin-right: 2px;
+        text-decoration: none;
+        z-index: 100;
+    }
+        /*侧边导航栏*/
+    .aside-nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 80px;
+        height: 100%;
+        font-size: 12px;
+        font-family: "arial";
+        background: #f5f5f5;
+        text-align: center;
+        display: block;
+        z-index: 10;
+    }
+    .more-text {
+        margin: 18px auto;
+    }
+    .aside-nav-img {
+        width: 36px;
+        height: 36px;
+        display: block;
+        margin: 10px auto 5px;
+        cursor: pointer;
+    }
+    .aside-nav-a {
+        border-top: 1px solid #f0f0f0;
+    }
+    .aside-nav-a a {
+        color: #000;
+        text-decoration: none;
+    }
+    .aside-nav-a a:hover,
+    .aside-nav-a a {
+        text-decoration: underline;
+    }
+    .mp3 {
+        width: 40px;
+        background: url(../images/bd-aside.png) -72px 0 no-repeat;
+    }
+    .image {
+        background: url(../images/bd-aside.png) -112px 0 no-repeat;
+    }
+    .know {
+        background: url(../images/bd-aside.png) -36px 0 no-repeat;
+    }
+    .wenku {
+        background: url(../images/bd-aside.png) -148px 0 no-repeat;
+    }
+    .top {
+        background: url(../images/bd-aside.png) -184px 0 no-repeat;
+    }
+    .spread {
+        background: url(../images/bd-aside.png) -220px 0 no-repeat;
+    }
+    .all {
+        margin: 10px auto;
+        padding-top: 15px;
+    }
+    /*侧边导航栏结束*/
+    /*article样式部分*/
+    /*行内元素间距为0*/
+    div.article {
+        font-size: 0;
+    }
+    /*article定位样式*/
+    .article {
+        position: relative;
+        top: 130px;
+    }
+    /*bd-lg图片样式*/
+    .bd-lg {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 270px;
+        height: 129px;
+        margin-left: -135px;
+    }
+    /*search样式*/
+    .search {
+        width: 100%;
+        height: 36px;
+    }
+    /*form样式*/
+    #form {
+        position: relative;
+        top: 150px;
+        margin: 22px auto 0;
+        width: 641px;
+        text-align: left;
+    }
+    /*input-wr*/
+    .input-wr {
+        border: 1px solid #b6b6b6;
+        border-color: #7b7b7b #b6b6b6 #b6b6b6 #7b7b7b;
+        background: #fff;
+        display: inline-block;
+        vertical-align: top;
+        width: 539px;
+        height: 34px;
+        margin-right: 0;
+        border-right-width: 0;
+        border-color: #b8b8b8 transparent #ccc #b8b8b8;
+        overflow: hidden;
+    }
+
+    /*sea-input文字设置*/
+    .sea-input {
+        width: 526px;
+        height: 22px;
+        font: 16px/18px arial;
+        line-height: 22px\9;
+        margin: 6px 0 0 7px;
+        padding: 0;
+        background: transparent;
+        border: 0;
+        outline: 0;
+        -webkit-appearance: none;
+    }
+
+    .sea-input:focus>.input-wr{
+        border: #00d;
+    }
+    /*百度一下按钮样式*/
+    .bd-btn {
+        width: 100px;
+        height: 36px;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 1px;
+        background: #3385ff;
+        border: none;
+        outline: medium;
+        border-bottom: 1px solid #2d78f4;
+    }
+    .bd-btn:hover {
+        background: #09f;
+    }
+    /*兼容safair*/
+    @media all and (-webkit-min-device-pixel-ratio:0) {
+        /* select{ [;这里单独设置Safari的样式] } */
+        .bd-btn {
+            [;
+            margin-left: -3px;
+            ]
+        }
+    }
+    /*footer样式部分*/
+    .ftcon {
+        position: absolute;
+        bottom: 44px;
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        min-width: 700px;
+        min-height: 100px;
+        font-size: 12px;
+    }
+    /*二维码图片样式部分*/
+    /*提取样式减少代码冗余度*/
+    .appdown_img,
+    .appnuomi_img {
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        *display: inline;
+        /*兼容ie6 ie7*/
+        *zoom: 1;
+    }
+    .appdown_img {
+        background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_62c636fe.png) 0 0 no-repeat;
+    }
+    .appnuomi_img {
+        background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/nuomi_510f7472.png) 0 0 no-repeat;
+        margin-left: 15px;
+    }
+    /*提取样式减少代码冗余度*/
+    .txt1,
+    .txt2,
+    .sign {
+        display: inline-block;
+        /*兼容IE*/
+        *display: inline;
+        *zoom: 1;
+    }
+    /*提取样式减少代码冗余度*/
+    .txt1,
+    .txt2 {
+        text-align: center;
+        line-height: 23px;
+        color: #999;
+    }
+    /*关于糯米，关于百度样式*/
+    .sign {
+        margin-left: 10px;
+    }
+    .txt1 .txt_pb,
+    .txt2 .txt_nm {
+        color: #4c4c4c;
+        font-weight: bold;
+    }
+    .txt1 .txt_ep {
+        letter-spacing: 1px;
+    }
+    /*使用百度前必读样式*/
+    .sign .lh {
+        margin-bottom: 3px;
+        padding-right: 88px;
+    }
+    .sign .lh a {
+        color: #272727;
+        margin-left: 30px;
+    }
+    .sign .cp,
+    .sign .cp a {
+        color: #666;
+    }
+    .sign .cp .c-icon-icrlogo {
+        background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/img/icons_8b5b2ea9.png) no-repeat;
+        width: 14px;
+        height: 17px;
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        background-position: -600px -96px;
+        position: relative;
+        top: 3px;
+    }
+    /*end content*/
+}

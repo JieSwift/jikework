@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header,
+article,
+footer {
+    display: block;
+}
+
+
+/*header*/
+
+.bg-wr {
+    background: #333 url(../images/bg.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    width: 100%;
+    height: 150px;
+}
+
+
+/*article*/
+
+.company,
+.vip,
+.food,
+.news,
+.active,
+.contact {
+    width: 47%;
+    height: 115px;
+    float: left;
+    margin: 1% 1%;
+    text-align: center;
+    color: #fff;
+    font-family: "宋体";
+}
+
+.company {
+    background: #60E379;
+}
+
+.vip {
+    background: #53A1F2;
+}
+
+.food {
+    background: #F29F53;
+}
+
+.news {
+    background: #F9E121;
+}
+
+.active {
+    background: #DE6DF6;
+}
+
+.contact {
+    background: #3B0DFC;
+}
+
+.img-company,
+.img-vip,
+.img-food,
+.img-news,
+.img-active,
+.img-contact {
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+}
+
+.img-company {
+    background: url(../images/company.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+}
+
+.img-vip {
+    background: url(../images/vip.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+}
+
+.img-food {
+    background: url(../images/food.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+}
+
+.img-news {
+    background: url(../images/news.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+}
+
+.img-active {
+    background: url(../images/active.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+}
+
+.img-contact {
+    background: url(../images/contact.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*footer*/
+
+.foot-wr {
+    width: 100%;
+    height: 80px;
+    background: #FA8A07;
+}
+
+.content-wr {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.img-wr img{
+    width: 30px;
+    height: 30px;
+}

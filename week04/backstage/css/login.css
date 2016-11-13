@@ -1,0 +1,78 @@
+body {
+    background: #eee;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+/*form样式*/
+.form-wr{
+	width: 477px;
+	height: 360px;
+	margin:0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -238px;
+	margin-top:-180px;
+	background: #fff;
+}
+
+.header{
+	text-align: center;
+	width: 477px;
+	height: 80px;
+	background: #bdbdbd;
+}
+
+.header-text{
+	display: inline-block;
+	font-size: 20px;
+	line-height: 80px;
+	color: #fff;
+}
+
+.form-login{
+	max-width: 330px;
+	margin:0 auto;
+	padding: 20px 15px 15px 15px;
+}
+.form-login .form-control{
+	position: relative;
+	font-size: 16px;
+	height: auto;
+	padding: 10px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.form-login input[type="text"]{
+	margin-bottom: 14px;
+    border-radius: 0;
+    background: url(../images/login_user.png) 0 0 #bdbdbd no-repeat;
+    padding-left: 60px;
+    color: #FFFFFF;
+}
+
+.form-login input[type="password"]{
+	margin-bottom: 14px;
+    border-radius: 0;
+    background: url(../images/login_pas.png) 0 0 #bdbdbd no-repeat;
+    padding-left: 60px;
+    color: #FFFFFF;
+}
+
+.btn{
+	border-radius: 0;
+}
+.form-login label{
+	margin-top: 15px;
+}
+.form-login input[type="checkbox"]{
+	margin:10px; 
+}
+
+.forget{
+	margin-left: 20px;
+}
+
+/*end form*/

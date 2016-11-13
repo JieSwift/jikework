@@ -1,0 +1,177 @@
+/*header*/
+
+.head-wr {
+    background: #8C938D;
+}
+
+.head-left {
+    height: 70px;
+    border-right: 1px solid #96CDCD;
+}
+
+.row-fluid {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.head-left img {
+    margin: -8px 10px 0;
+}
+
+.head-left span {
+    line-height: 70px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.admin-txt {
+    position: relative;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    color: #F8F4F8;
+    line-height: 70px;
+}
+
+.triangle {
+    position: absolute;
+    top: 29px;
+    right: 15%;
+    border-top: 10px solid #fff;
+    border-bottom: 10px solid transparent;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    cursor: pointer;
+}
+
+.img-on {
+    text-align: center;
+    height: 70px;
+    padding-top: 10px;
+    background: #00EE76;
+}
+
+
+/*end header*/
+
+
+/*article*/
+
+
+/*body-left样式*/
+
+.b-left {
+    height: 850px;
+    width: 200px;
+    color: #fff;
+    background: #00EE76;
+    font-size: 18px;
+    font-family: "微软雅黑";
+}
+
+.list-wr li {
+    margin: 8px 0;
+}
+
+.son-list {
+    color: #333;
+    cursor: pointer;
+    padding: 10px 0 0 50px;
+}
+
+.list-wr li:hover {
+    color: #FFF68F;
+}
+
+.mana {
+    display: block;
+    font-size: 24px;
+    margin: 10px 0;
+    cursor: pointer;
+    padding-left: 40px;
+}
+
+.mana:hover {
+    color: #FF6A6A;
+}
+
+
+/*body-right样式*/
+
+.b-right {
+    height: 850px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    background: #fff;
+}
+
+.br-nav li {
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.br-nav li:hover {
+    color: #999;
+}
+
+.br-table thead {
+    background: #8C938D;
+}
+
+.br-table tr td,
+.br-table tr th {
+    padding: 20px 40px;
+}
+
+.success {
+    color: #66CD00;
+}
+
+.error {
+    color: #f00;
+}
+
+.tol-text {
+    margin-top: 20px;
+    padding: 10px 0 0 28px;
+}
+
+.tol-ul {
+    margin-top: 20px;
+    padding-left: 95px;
+}
+
+.tol-ul li {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bolder;
+    margin: 0 3px;
+    background: #eee;
+}
+
+.tol-ul li:hover {
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.tol-ul li.tol-pre,
+.tol-ul li.tol-next {
+    font-size: 20px;
+    color: #fff;
+    background: #40FD61;
+}
+
+.tol-ul li.tol-pre:hover,
+.tol-ul li.tol-next:hover {
+    background: #026714;
+}
+
+
+/*end article*/

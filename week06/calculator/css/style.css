@@ -1,0 +1,149 @@
+article {
+    display: block;
+    font-family: "微软雅黑";
+}
+
+div,
+input,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #aaa;
+}
+
+
+/*清除浮动样式*/
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    overflow: hidden;
+    display: block;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+
+/*contain样式*/
+
+.container {
+    width: 460px;
+    height: 394px;
+    background: #F9F9F9;
+    overflow: hidden;
+    -moz-border-radius: 5px;
+    /* Firefox */
+    -webkit-border-radius: 5px;
+    /* Safari 和 Chrome */
+    border-radius: 5px;
+    /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -230px;
+    margin-top: -187px;
+    box-shadow: 0px 0px 10px rgba(153, 153, 153, 0.8), 0px 0px 10px rgba(0, 0, 0, 0.5) inset;
+    -webkit-box-shadow: 0px 0px 10px rgba(153, 153, 153, 0.8), 0px 0px 10px rgba(0, 0, 0, 0.5) inset;
+    -moz-box-shadow: 0px 0px 10px rgba(153, 153, 153, 0.8), 0px 0px 10px rgba(0, 0, 0, 0.5) inset;
+    behavior: url(ie-css3.htc);
+    /* 通知IE浏览器调用脚本作用于'box'类 */
+}
+
+
+/*输出框*/
+
+#text {
+    width: 407px;
+    height: 82px;
+    margin: 10px 15px 0;
+    padding: 0 10px;
+    -moz-border-radius: 5px;
+    /* Firefox */
+    -webkit-border-radius: 5px;
+    /* Safari 和 Chrome */
+    border-radius: 5px;
+    /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+    border: 1px solid #333;
+    box-shadow: 0 5px 2px rgba(157, 157, 145, 0.8);
+    -webkit-box-shadow: 0 5px 2px rgba(157, 157, 145, 0.8);
+    -moz-box-shadow: 0 5px 2px rgba(157, 157, 145, 0.8);
+    outline: none;
+    text-align: right;
+    background: #fcfdeb;
+    line-height: 82px;
+    font-size: 40px;
+}
+
+
+/*按键样式*/
+
+.cal-wr {
+    width: 440px;
+    margin: 0 auto;
+}
+
+ul li {
+    float: left;
+    width: 74px;
+    height: 44px;
+    list-style: none;
+    font-size: 25px;
+    line-height: 44px;
+    border: 1px solid #8B8B8B;
+    -moz-border-radius: 5px;
+    /* Firefox */
+    -webkit-border-radius: 5px;
+    /* Safari 和 Chrome */
+    border-radius: 5px;
+    /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+    text-align: center;
+    cursor: pointer;
+    margin: 12px 6px 0px;
+}
+
+.two-wr {
+    width: 358px;
+    height: 116px;
+    margin-bottom: 10px;
+}
+
+#zero {
+    width: 162px;
+}
+
+.equal-wr {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.equal-wr ul li {
+    height: 100px;
+}
+
+.black {
+    border: 1px solid #363636;
+    color: #fff;
+    background: #333;
+}
+
+.orange {
+    border: 1px solid #875733;
+    background: #c60;
+}
+
+.gray {
+    border: 1px solid #5F6366;
+    background: #999;
+}
+
+.num,
+.sign {
+    background: #eee;
+}

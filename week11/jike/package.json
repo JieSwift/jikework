@@ -1,0 +1,22 @@
+{
+  "name": "jike",
+  "version": "1.0.0",
+  "description": "安装下面gulp插件\r Autoprefixer (gulp-autoprefixer)\r     缩小化(minify)CSS (gulp-minify-css)\r     丑化(Uglify) (gulp-uglify)\r     即时重整(LiveReload) (gulp-livereload)\r     清理档案 (gulp-clean)\r     更动通知 (gulp-notify)\r     sass(gulp-sass)\r     concat(合并)\r   运行gulp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-clean": "^0.3.2",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.1.0",
+    "gulp-uglify": "^2.0.0"
+  }
+}

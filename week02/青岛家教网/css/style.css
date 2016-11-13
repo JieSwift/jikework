@@ -1,0 +1,114 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: "微软雅黑";
+}
+
+.main {
+    background-color: #333;
+    padding: 15px;
+}
+
+.container {
+    background-color: #fff;
+    width: 710px;
+    margin: 0px auto;
+    border-radius: 43px;
+    box-shadow: 0px 0px 5px #666;
+}
+
+.red {
+    color: #f00;
+}
+
+.tab1 {
+    margin: 0px 20px;
+    padding: 0px;
+}
+
+.tab1 tr td,
+.tab1 tr td a {
+    color: #f00;
+    vertical-align: bottom;
+    text-decoration: none;
+    font-family: "微软雅黑";
+}
+
+.tab1 .img {
+    width: 220px;
+    height: 82px;
+}
+
+.tab1 .tab1_a {
+    width: 482px;
+    height: 82px;
+    text-align: right;
+}
+
+.tab1 .tab1_a a {
+    margin: 5px;
+}
+
+.tab1 tr th {
+    width: 637px;
+    height: 60px;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 20px;
+    border-style: none;
+}
+
+.tab2 {
+    border-collapse: collapse;
+    border: 1px solid #eee;
+    margin: 10px 30px;
+}
+
+.tab2 tr td {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #333;
+}
+
+.tab2 tr .notice {
+    background-color: #D9D9E3;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+
+.tab2 .tab2_title {
+    background-color: #EEE;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tab2 tr .first {
+    width: 118.4px;
+    height: 61.6px;
+    text-align: right;
+}
+
+.tab2 tr .second {
+    color: #00f;
+}
+
+.tab2 tr #sub_btn {
+    text-align: center;
+}
+
+.tab2 tr .submit {
+    width: 82px;
+    height: 24px;
+    border-radius: 5px;
+    background-color: #eee;
+    color: #000;
+    font-family: "微软雅黑";
+    font-weight: bold;
+}
+
+.tab3 tr .footer {
+    text-align: center;
+    width: 710px;
+    font-family: "微软雅黑";
+}
